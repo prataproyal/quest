@@ -12,9 +12,9 @@ steps {
 bat 'mvn test'
 }
 }
-stage ('Installing Stage') {
+stage ('packaging Stage') {
 steps {
-bat 'mvn install'
+bat 'mvn package'
 }
 }
 }
